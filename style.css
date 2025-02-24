@@ -1,0 +1,106 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 5em 10em;
+}
+
+h1{
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+h2{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    margin: 0;
+    color: hsl(234, 12%, 34%);
+}
+
+p{
+    font-family: "Poppins", serif;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.title-1, .title-2, .subtitle{
+    text-align: center;
+}
+
+.title-1{
+    font-weight: 200;
+}
+
+.title-2{
+   font-weight: 600;
+}
+
+.subtitle{
+    font-weight: 200;
+    margin-bottom: 5em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    margin-bottom: 3em;
+}
+
+.flex-middle{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.flex{
+    width: 220px;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 0px 11px 45px -6px rgba(0,0,0,0.4);
+    padding: 1.5em 2em; 
+}
+
+.flex p{
+    margin: 1em 0 2.5em 0;
+    color: hsl(212, 6%, 44%);
+}
+
+.flex img{
+    float: right;
+}
+
+.left{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.up{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.down{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.right{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+@media (max-width: 600px) and (min-width: 0px) {
+    body{
+        margin: 5em 1em;
+    }
+
+    .container{
+        flex-direction: column;
+        row-gap: 1em;
+    }
+}
+
+
+
+
